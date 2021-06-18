@@ -7,9 +7,9 @@ import {
 } from "./actionTypes";
 
 import axios from "axios";
-import { API_BASE } from "../Helpers/env";
+//import { API_BASE } from "../Helpers/env";
 
-//const API_BASE = "https://crmapp-server.herokuapp.com/slider"
+const API_BASE = "https://crmapp-server.herokuapp.com/slider"
 
 export const getData = (data) => ({
   type: GET_SLIDERS,
